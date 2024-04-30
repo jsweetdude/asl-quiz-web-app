@@ -6,7 +6,7 @@ import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="container-fluid" justifyContent="space-between">
+      <div className="container-fluid" justifycontent="space-between">
         <a className="navbar-brand d-flex align-items-center" href="#">
           <img
             src={appIcon}

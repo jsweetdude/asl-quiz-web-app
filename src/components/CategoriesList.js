@@ -1,5 +1,21 @@
 import React from "react";
-import CategoriesItem from "./CategoriesItem";
+// import CategoriesItem from "./CategoriesItem";
+
+const CategoriesItem = ({ value }) => {
+  return (
+    <li className="list-group-item">
+      <input
+        className="form-check-input me-1"
+        type="checkbox"
+        value={value}
+        id={value + "-checkbox"}
+      />
+      <label className="form-check-label" for={value + "-checkbox"}>
+        {value}
+      </label>
+    </li>
+  );
+};
 
 const CategoriesList = ({ categoryList }) => {
   const categories = categoryList.map((category) => (

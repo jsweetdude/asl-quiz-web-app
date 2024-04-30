@@ -5,9 +5,6 @@ import { faAppleWhole } from "@fortawesome/free-solid-svg-icons";
 const QuizWord = () => {
   return (
     <div className="quiz-container">
-      <div className="img-container">
-        <FontAwesomeIcon icon={faAppleWhole} size="10x" />
-      </div>
       <h2>Apple</h2>
     </div>
   );

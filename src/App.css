@@ -10,7 +10,8 @@
 
 nav span.app-name {
   font-size: 1.5rem;
-  color: #38F9D5;
+  /* color: #38F9D5; */
+  color: #fff;
   font-weight: 700;
 }
 
@@ -20,6 +21,19 @@ nav img.app-logo {
 
 nav .account-icon {
   color: #38F9D5;
+}
+
+/* LocalStorage Warning Modal */
+.modal {
+  display: block !important;
+}
+.modal-dialog {
+  /* position: absolute !important; */
+  width: 50%;
+  /* left: 25%; */
+  background-color: #fff;
+  opacity: 1;
+  display: block !important;
 }
 
 /* Main */
@@ -46,7 +60,11 @@ main {
   flex-direction: column;
   align-items: center;
   width: 40%;
-  margin-top: 3.5rem;
+  margin: 7rem 0 3.5rem 0;
+}
+
+.quiz-container h2 {
+  font-size: 4rem;
 }
 
 .img-container {
