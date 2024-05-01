@@ -25,7 +25,7 @@ nav .account-icon {
 
 /* LocalStorage Warning Modal */
 .modal {
-  display: block !important;
+  display: block;
 }
 .modal-dialog {
   /* position: absolute !important; */
@@ -60,16 +60,25 @@ main {
   flex-direction: column;
   align-items: center;
   width: 40%;
-  margin: 7rem 0 3.5rem 0;
+  margin: 2rem 0 6rem 0;
+  position: relative;
 }
 
 .quiz-container h2 {
   font-size: 4rem;
+  position: relative;
+  top:80%;
 }
 
-.img-container {
-  margin-bottom: 2rem;
+.remove-word-btn {
+  position:absolute;
+  top:0;
+  right:0;
+  padding: 0.15rem 0.4rem !important;
 }
+
+
+
 
 /* Categories */
 .categories-container {
@@ -79,7 +88,6 @@ main {
   /* margin: 0 2rem; */
   width: 30%;
 }
-
 .categories-container-btn {
   display: flex;
   justify-content: flex-end;
@@ -115,7 +123,6 @@ main {
 
 /* Response Buttons */
 
-
 .bottom-container {
   display: flex;
   justify-content: center;
@@ -125,3 +132,27 @@ main {
 .answer-buttons {
   width: 40%;
 }
+
+
+
+/* Dev Tools */
+.dev-tools-container {
+  position:absolute;
+  bottom:0;
+}
+.dev-tools-list {
+  list-style-type: none;
+  padding: 0.5rem 0;
+  margin: 0;
+  min-width: 10rem;
+  border: 1px solid rgba(0, 0, 0, 0.175);;
+  border-radius: 0.375rem;
+  position: absolute;
+  /* width: 50%; */
+}
+.dev-tools-list a {
+  padding: .25rem 1rem;
+  color: #212529;
+  text-decoration: none;
+}
+
