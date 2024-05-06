@@ -5,6 +5,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "banana",
@@ -12,6 +13,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "carrot",
@@ -19,6 +21,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "doughnut",
@@ -26,6 +29,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "eggplant",
@@ -33,6 +37,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "fig",
@@ -40,6 +45,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "garlic",
@@ -47,6 +53,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "honey",
@@ -54,6 +61,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "ice cream",
@@ -61,6 +69,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "jam",
@@ -68,6 +77,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "mother",
@@ -75,6 +85,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "father",
@@ -82,6 +93,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "sister",
@@ -89,6 +101,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "brother",
@@ -96,6 +109,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "grandmother",
@@ -103,6 +117,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "grandfather",
@@ -110,6 +125,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "uncle",
@@ -117,6 +133,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "aunt",
@@ -124,6 +141,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "cousin",
@@ -131,6 +149,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "nephew",
@@ -138,6 +157,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "hello",
@@ -145,6 +165,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "goodbye",
@@ -152,6 +173,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "good morning",
@@ -159,6 +181,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "good night",
@@ -166,6 +189,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "nice to meet you",
@@ -173,6 +197,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "yesterday",
@@ -180,6 +205,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "today",
@@ -187,6 +213,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "tomorrow",
@@ -194,6 +221,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "minute",
@@ -201,6 +229,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "hour",
@@ -208,6 +237,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "left",
@@ -215,6 +245,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "right",
@@ -222,6 +253,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "up",
@@ -229,6 +261,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "down",
@@ -236,6 +269,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "forward",
@@ -243,6 +277,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "backward",
@@ -250,6 +285,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "big",
@@ -257,6 +293,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "small",
@@ -264,6 +301,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "hot",
@@ -271,6 +309,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "cold",
@@ -278,6 +317,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "fast",
@@ -285,6 +325,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "slow",
@@ -292,6 +333,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "what is your name?",
@@ -299,6 +341,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "how are you?",
@@ -306,6 +349,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "where are you from?",
@@ -313,6 +357,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "what time is it?",
@@ -320,6 +365,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "can you help me?",
@@ -327,6 +373,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "what is this?",
@@ -334,6 +381,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "why is it important?",
@@ -341,6 +389,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
   {
     term: "how much does it cost?",
@@ -348,6 +397,7 @@ const vocabularyList = [
     mastered: 0,
     needsPractice: 0,
     dontKnow: 0,
+    remove: false,
   },
 ];
 
